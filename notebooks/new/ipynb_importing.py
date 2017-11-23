@@ -3,6 +3,8 @@ from IPython import get_ipython
 from nbformat import read
 from IPython.core.interactiveshell import InteractiveShell
 
+"""We use Jupyter Notebook Here"""
+
 class NotebookFinder(object):
     """Module finder that locates Jupyter Notebooks"""
     def __init__(self):
